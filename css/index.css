@@ -1,0 +1,160 @@
+.w .main {
+    width: 1397px;
+    height: 400px;
+    margin-left: 403px;
+
+}
+
+.focus {
+    float: left;
+    margin-left: 3px;
+    height: 400px;
+    width: 893px;
+}
+
+.newflash {
+    float: right;
+    width: 490px;
+    height: 400px;
+}
+
+.newflash .eyes {
+    height: 130px;
+}
+
+.newflash .eyes img {
+    width: 490px;
+}
+
+.newflash .news {
+    width: 490px;
+    height: 270px;
+    background-color: #fff;
+}
+
+.newflash .news .new_hd {
+    height: 70px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+
+.newflash .news .new_bd {
+    height: 200px;
+}
+
+.news .new_hd .one_word {
+    float: left;
+    margin-left: 40px;
+    color: #0e0303;
+}
+
+.news .new_hd .more {
+    float: right;
+    margin-right: 70px;
+}
+
+.news .new_hd .more a::after {
+    display: inline-block;
+    font-family: 'icomoon';
+    content: '\ea42';
+    color: #caa021;
+}
+
+.news .new_bd ul li {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news .new_bd ul li:hover a {
+    color: rgb(31, 64, 184);
+}
+
+.recom {
+    margin-top: 10px;
+    height: 300px;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 400px;
+}
+
+.recom .recom_hd img {
+    width: 400px;
+    height: 300px;
+}
+
+.recom .recom_bd {
+    float: left;
+    width: 1400px;
+}
+
+.recom .recom_bd ul li {
+    float: left;
+    height: 300px;
+    width: 340px;
+}
+
+.recom .recom_bd ul li:first-child {
+    margin-left: 7px;
+}
+
+.recom .recom_bd ul li:nth-child(n+2) {
+    margin-left: 11px;
+}
+
+.recom .recom_bd ul li img {
+    height: 300px;
+    width: 340px;
+}
+
+.floor {
+    margin-top: 5px;
+}
+
+.jiadian .box_hd {
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid red;
+}
+
+.floor .jiadian .box_title {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+.floor .jiadian .tab_list {
+    float: right;
+    height: 90px;
+    line-height: 90px;
+}
+
+.floor .jiadian .tab_list ul li {
+    float: left;
+}
+
+.floor .jiadian .tab_list ul li a {
+    padding: 0 20px;
+    font-size: large;
+    font-weight: 600;
+    color: #49ddce;
+}
+
+.floor .jiadian .tab_list ul li a:hover {
+    color: #fff;
+}
+
+.box_bd {
+    height: 300px;
+    background-color: pink;
+}

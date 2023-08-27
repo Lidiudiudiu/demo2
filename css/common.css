@@ -1,0 +1,371 @@
+.w {
+    width: 1800px;
+    margin: 0 auto;
+}
+
+
+
+.w2 {
+    width: 250px;
+}
+
+.shoutcut {
+    line-height: 33px;
+    height: 33px;
+    background-color: rgba(149, 158, 155, .3);
+}
+
+.fontb {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.fontm {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shoutcut .marginleft1 {
+    margin-left: 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shoutcut .w .w2 {
+    color: hsla(195, 88%, 48%, 0.9)
+}
+
+.shoutcut .w .w2 a {
+    color: #e02121;
+    font-size: 16px;
+}
+
+.shoutcut .w .w2 a:hover {
+    display: inline-block;
+    height: 33px;
+    color: #1bc44d;
+    background-color: #eac213;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.shoutcutright {
+    width: 700px;
+}
+
+.shoutcut .fr li {
+    float: right;
+}
+
+.shoutcut .fr ul li:nth-child(2n) {
+    width: 1px;
+    background-color: #1e98a6;
+    height: 17px;
+    margin: 10px 14px 0;
+}
+
+.shoutcut .fr ul a li {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(191, 209, 72);
+}
+
+.header {
+    position: relative;
+    height: 185px;
+    background-color: rgba(163, 138, 138, 0.2);
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    width: 159px;
+    height: 185px;
+}
+
+.logo a {
+    display: block;
+    width: 159px;
+    height: 185px;
+    font-size: 0;
+    background: url(../images/字笑-字体效果神器.png) no-repeat;
+    background-position: -70px -30px;
+}
+
+
+.header .search {
+    position: absolute;
+    left: 400px;
+    top: 30px;
+    border-radius: 10px;
+    width: 1000px;
+    height: 61px;
+    border: 2px solid rgba(0, 0, 0, .5);
+
+}
+
+.search input {
+    float: left;
+    padding-left: 12px;
+    height: 57px;
+    width: 850px;
+    border-radius: 10px 0 0 10px;
+    background-color: #fff;
+    font-size: 19px;
+}
+
+.search button {
+    float: left;
+    border-radius: 0 10px 10px 0;
+    height: 57px;
+    width: 146px;
+    background-color: #a42222;
+}
+
+.search span {
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: #4c29bc;
+}
+
+.header .hotwords {
+    position: absolute;
+    width: 800px;
+    top: 120px;
+    left: 500px;
+
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.header .hotwords a {
+    margin-right: 20px;
+    text-shadow: 1px 1px 1px #4c29bc;
+}
+
+.box1 {
+    position: absolute;
+    right: 0;
+    background-color: #f0f0ee;
+    width: 370px;
+    height: 185px;
+    border-radius: 50px;
+}
+
+.btn {
+    position: absolute;
+    top: 42px;
+    right: 30px;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 50px;
+    color: #333;
+    user-select: none;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px #ccc;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, .2),
+        -20px -20px 30px rgba(255, 255, 255, 1);
+
+    transition: all 0.4s ease-out;
+}
+
+.btn:hover {
+    box-shadow:
+        0 0 0 rgba(0, 0, 0, .2),
+        0 0 0 rgba(255, 255, 255, .8),
+        inset 10px 10px 20px rgba(0, 0, 0, .1),
+        inset -10px -10px 20px rgba(255, 255, 255, 1);
+
+    font-size: 48px;
+}
+
+.nav {
+    height: 100px;
+
+    border-bottom: 2px solid rgba(244, 88, 187, 0.338);
+}
+
+.nav .w {
+    height: 100%;
+
+}
+
+.nav .dropdown {
+    float: left;
+    height: 100%;
+    width: 400px;
+
+}
+
+.nav .dropdown .dt {
+    font-size: large;
+    font-weight: 600;
+    color: #fff;
+    background-color: rgba(228, 178, 14, 0.1);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.nav .dropdown .dd {
+    height: 400px;
+    width: 100%;
+    background-color: #c71818;
+}
+
+.nav .dropdown .dd ul li {
+    width: 100%;
+    height: 50px;
+    margin-left: 1px;
+    padding-left: 20px;
+    background-color: rgba(26, 90, 228, 0.2);
+}
+
+
+.nav .dropdown .dd ul li a {
+    display: inline-block;
+    width: 100%;
+    font-size: 19px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #eac213;
+    text-shadow: 1px 1px 1px rgba(193, 162, 59, 0.39);
+
+}
+
+.nav .dropdown .dd ul li:hover a {
+    font-weight: 700;
+    color: #4c29bc;
+}
+
+.nav .dropdown .dd ul li:hover {
+    background-color: #fff;
+}
+
+.navitem {
+    float: left;
+}
+
+.navitem ul li {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.navitem ul li a {
+    padding: 30px;
+    font-size: 19px;
+    color: #2bbcbe;
+    font-weight: 600;
+}
+
+.navitem ul li:hover a {
+    color: #95ba9e;
+    font-weight: 800;
+}
+
+.footer {
+    padding-top: 20px;
+    height: 400px;
+}
+
+.footer .mod_serve {
+    padding-top: 20px;
+    height: 100px;
+}
+
+.footer .mod_serve ul li h5 {
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 55px;
+    height: 55px;
+    background: url(../images/icons.png) no-repeat -251px 0px;
+
+}
+
+.footer .mod_serve ul li {
+    float: left;
+    padding-top: 15px;
+    width: 450px;
+    height: 100px;
+
+}
+
+.footer .mod_serve ul li .mod_text {
+    margin-top: 8px;
+}
+
+.mod_help {
+    height: 230px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+
+}
+
+.footer .w .mod_help dl {
+    float: left;
+    width: 300px;
+
+}
+
+.footer .w .mod_help dl:last-child {
+    width: 250px;
+}
+
+.mod_help dl dt {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #ecc422;
+}
+
+.mod_help dl dd a {
+    font-size: large;
+    margin-left: 5px;
+    color: #d2e2e69d;
+}
+
+
+.mod_copyright {
+    margin-top: 30px;
+    height: 90px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 0 22px;
+    font-size: 19px;
+    color: #2fd909;
+    font-weight: 500px;
+}
+
+.copyright {
+    font-size: 18px;
+    text-align: center;
+    line-height: 20px;
+}
